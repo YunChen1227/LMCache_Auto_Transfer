@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lmcache-auto-transfer"
+version = "0.1.0"
+description = "LMCache MP server module: NAS KV token journal and startup GPU warmup (LMCache_Auto_Transfer)"
+requires-python = ">=3.10"
+dependencies = ["lmcache"]
+
+[tool.setuptools]
+packages = ["nas_kv_warmup"]
